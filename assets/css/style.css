@@ -8371,6 +8371,7 @@ label {
   height: 100%;
   z-index: 1000000;
   position: fixed;
+  overflow: hidden;
 }
 
 .divNew2 {
@@ -8992,4 +8993,198 @@ label {
 
 .roundedItem{
   border-radius: 20px;
+}
+
+
+
+
+
+/* Aqui inicia la seccion Responisve para medidas de 1150px */
+
+
+@media (max-width: 1200px) {
+  .divNew{
+    width: 0;
+  }
+  .divNew2{
+    width: 100%;
+  }
+  .searchText{
+    font-size: 20px;
+  }
+  .cs-hero{
+    display: flex;
+    justify-content: center;
+  }
+  .cs-hero.cs-style1{
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  .heroSeccion{
+    padding: 0px;
+    margin: 0;
+  }
+  .tipeLenguaje{
+    font-size: 15px;
+  }
+  .codeText{
+    font-size: 13px;
+  }
+
+  .h3TextoLenguajes{
+    font-size: 30px;
+  }
+  .centroDVh2{
+    font-size: 20px;
+  }
+  .lineaHorizontal{
+    width: 32%;
+  }
+  
+}
+
+
+@media (max-width: 990px) {
+  .cs-hero.cs-style1.cs-bg.cs-fixed_bg.cs-shape_wrap_1.backgroundHome.heroContainer{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .heroSeccion{
+    width: 100%;
+  }
+  .cs-hero_text.cs-hero_text_width{
+    width: 100%;
+  }
+  .cs-hero_img{
+    width: 50%;
+  }
+  .searchText{
+    font-size: 15px;
+    justify-content: left;
+  }
+  .p2MeSeccion{
+    font-size: 12px;
+  }
+  .pMeSecciton{
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 770px) {
+  .hiddenMovile{
+display: none;  
+  }
+  .heroSeccion{
+    flex-direction: column;
+    padding-bottom: 50px;
+    }
+  .cs-hero_img{
+    margin-top: 50px;
+      width: 100%;
+}
+.imgPosition{
+  width: 60%;
+}
+
+.h3TextoLenguajes{
+  font-size: 18px;
+}
+.boxSquare1{
+  width: 90%;
+}
+.lenguajesDominadosTwo{
+  height: 70%;
+}
+
+.shopifySquare{
+  position: static;
+  width: 100%;
+  height: 50%;
+}
+.wordPress{
+  z-index: 10;
+  position: static;
+  width: 100%;
+  height: 50%;
+}
+
+.tailWindCss{
+  display: none;
+}
+
+.centroDVh2{
+  z-index: 10;
+  font-size: 15px;
+}
+
+.CssLg{
+  z-index: 10;
+  position: static;
+  width: 100%;
+}
+.javaScriptLg{
+  z-index: 10;
+  position: static;
+  width: 100%;
+}
+.htmlLg{
+  z-index: 10;
+  position: static;
+  width: 100%;
+}
+
+.frameWorksAprendidos{
+  position: relative;
+}
+
+.frameWorksBase{
+  width: 80%;
+}
+.imagenFrameWorks{
+  position: absolute;
+  right: 0;
+}
+.reactSquare{
+  top: 10px;
+  left: 10px;
+  width: 150%;
+  height: 55%;
+}
+.nodeExpressSquare{
+  width: 150%;
+  height: 50%;
+  bottom: -60px;
+  left: 10px;
+}
+.tipeLenguaje{
+  font-size: 15px;
+}
+
+
+.boardMenuBottom{
+  flex-direction: column;
+  height: 600px;
+  margin-top: 100px;
+}
+.meMenuBottom{
+  width: 100%;
+}
+.imgBottom{
+  width: 100%;
+}
+.igmSeccionBottom{
+  width: 50%;
+}
+.footerSecction{
+  margin-top: 200px;
+}
+.svgMeSecction{
+  bottom: -150px;
+}
+.footerSecction{
+  text-align: center;
+  font-size: 15px;
+}
 }
