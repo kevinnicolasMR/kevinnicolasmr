@@ -7111,6 +7111,7 @@ label {
   height: 100%;
   width: 100%;
   border-radius: inherit;
+  border-radius: 50px;
 }
 
 .cs-portfolio.cs-style1 .cs-portfolio_info {
@@ -8911,6 +8912,14 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.svgMeSecction{
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
+  z-index: 0;
 }
 
 
@@ -8922,6 +8931,7 @@ label {
   box-shadow: 1px 1px 5px white;
   display: flex;
   justify-content: center;
+  z-index: 2;
 }
 
 .imgBottom{
@@ -8978,4 +8988,8 @@ label {
 
 .notBorder{
   box-shadow: none;
+}
+
+.roundedItem{
+  border-radius: 20px;
 }
