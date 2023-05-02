@@ -712,9 +712,11 @@ hr {
 }
 
 .cs-bg {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-position: left;
+  background-color: #201313;
 }
 
 .cs-vertical_middle {
@@ -1962,7 +1964,7 @@ label {
 
 .cs-shape_wrap_4 .cs-shape_4 {
   position: absolute;
-  background-color: #000;
+  background-color: #463939;
   border-radius: 50%;
 }
 
