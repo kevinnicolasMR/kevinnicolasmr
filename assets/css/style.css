@@ -9264,3 +9264,9 @@ display: none;
   background-color: rgb(47, 7, 7);
   border-radius: 0% 50% 50% 0%;
 }
+
+.BotonNUEVO{
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+}
