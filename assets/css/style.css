@@ -9078,6 +9078,9 @@ label {
   .hiddenMovile{
 display: none;  
   }
+  .haidenItem{
+    display: none;
+  }
   .heroSeccion{
     flex-direction: column;
     padding-bottom: 50px;
@@ -9189,4 +9192,15 @@ display: none;
   text-align: center;
   font-size: 15px;
 }
+.cs-style1{
+  width: 100%;
+}
+}
+
+
+
+@media screen and (max-width: 950px) {
+  .form{
+    width: 100%;
+  }
 }
