@@ -8381,6 +8381,10 @@ label {
   height: 100%;
 }
 
+.divNew2WithFull{
+  width: 100%;
+}
+
 .logoLeftSlider {
   width: 80%;
   display: flex;
@@ -9197,10 +9201,66 @@ display: none;
 }
 }
 
-
-
 @media screen and (max-width: 950px) {
   .form{
     width: 100%;
   }
+}
+
+
+.botonOcultar{
+  color: black;
+  position: fixed;
+  bottom: 0;
+}
+
+
+.hiddenSeccionDiv {
+  display: none;
+  transition: all 1s;
+}
+
+.buttonOfMenu{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.buttonAligncenter{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonOf{
+  align-items: center;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius:  20px;
+}
+
+.buttonOn{
+  align-items: center;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius:  20px;
+  display: none;
+}
+
+.buttonOnJS{
+  display: flex;
+}
+
+.buttonOfMenuContainer{
+  width: 125px;
+  height: 75px;
+  position: fixed;
+  z-index: 10000000000;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(47, 7, 7);
+  border-radius: 0% 50% 50% 0%;
 }
