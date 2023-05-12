@@ -9012,9 +9012,6 @@ label {
   .divNew{
     width: 0;
   }
-  .divNew2{
-    width: 100%;
-  }
   .searchText{
     font-size: 20px;
   }
@@ -9324,7 +9321,7 @@ display: none;
     justify-content: center;
     background-color: #000000e6;
     width: 100%;
-    height: 680px;
+    height: 700px;
     display: none;
   }
   .menuMobileOn{
