@@ -8376,7 +8376,7 @@ label {
   overflow: hidden;
 }
 
-.divNew2 {
+.divNew2{
   width: 85%;
   height: 100%;
 }
@@ -9269,4 +9269,74 @@ display: none;
   background-color: transparent;
   width: 100px;
   height: 100px;
+}
+
+
+
+/* Seccion del headermobile*/
+
+@media screen and (min-width: 1201px) {
+  .menuMobile{
+    display: none;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .buttonOfMenuContainer{
+    display: none;
+  }
+  .menuMobile{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    position: fixed;
+    z-index: 99999999999999999;
+    margin-top: -5px;
+  }
+  
+  .buttonMenuMobile{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    z-index: 999999999999999999999;
+
+  }
+  .fontMenuMobile{
+    font-size: 2.5rem;
+    line-height: 1.3;
+  }
+  
+  .menuMobileOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000e6;
+    width: 100%;
+    height: 680px;
+    display: none;
+  }
+  .menuMobileOn{
+    display: flex;
+  }
+  
+  .buttonMenuMobileOnOf{
+    z-index: 9999999999999999999;
+  }
+  
+  .fa-sliders{
+  font-size: 30px;
+  }
+}
+
+body{
+  margin: 0;
 }
