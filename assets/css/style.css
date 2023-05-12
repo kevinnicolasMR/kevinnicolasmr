@@ -9290,7 +9290,9 @@ display: none;
     position: fixed;
     z-index: 99999999999999999;
   }
-  
+  .divNew2{
+    width: 100%;
+  }
   .buttonMenuMobile{
     display: flex;
     justify-content: right;
